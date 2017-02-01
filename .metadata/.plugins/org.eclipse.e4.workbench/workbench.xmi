@@ -70,10 +70,9 @@
           <tags>persp.newWizSC:org.eclipse.m2e.core.wizards.Maven2ProjectWizard</tags>
           <tags>persp.showIn:org.eclipse.tm.terminal.view.ui.TerminalsView</tags>
           <tags>persp.actionSet:org.eclipse.wst.ws.explorer.explorer</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_K0-ooeRWEeazTIcL1rctJA" selectedElement="_K0-oouRWEeazTIcL1rctJA" horizontal="true">
-            <children xsi:type="basic:PartStack" xmi:id="_K0-oouRWEeazTIcL1rctJA" elementId="topLeft" containerData="2500" selectedElement="_K0-oo-RWEeazTIcL1rctJA">
-              <tags>active</tags>
-              <children xsi:type="advanced:Placeholder" xmi:id="_K0-oo-RWEeazTIcL1rctJA" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_Kyy3UORWEeazTIcL1rctJA"/>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_K0-ooeRWEeazTIcL1rctJA" selectedElement="_K0-op-RWEeazTIcL1rctJA" horizontal="true">
+            <children xsi:type="basic:PartStack" xmi:id="_K0-oouRWEeazTIcL1rctJA" elementId="topLeft" toBeRendered="false" containerData="2500">
+              <children xsi:type="advanced:Placeholder" xmi:id="_K0-oo-RWEeazTIcL1rctJA" elementId="org.eclipse.ui.navigator.ProjectExplorer" toBeRendered="false" ref="_Kyy3UORWEeazTIcL1rctJA"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_K0-opORWEeazTIcL1rctJA" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_Ky1TkORWEeazTIcL1rctJA"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_K0-opeRWEeazTIcL1rctJA" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_Ky1TkeRWEeazTIcL1rctJA"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_K0-opuRWEeazTIcL1rctJA" elementId="org.eclipse.jdt.ui.PackagesView" toBeRendered="false" ref="_K02FwORWEeazTIcL1rctJA"/>
@@ -87,6 +86,7 @@
                 </children>
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_K0-oreRWEeazTIcL1rctJA" elementId="bottomRight" containerData="3000" selectedElement="_K0-oseRWEeazTIcL1rctJA">
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_K0-oruRWEeazTIcL1rctJA" elementId="org.eclipse.ui.views.AllMarkersView" ref="_K02s0ORWEeazTIcL1rctJA"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_K0-or-RWEeazTIcL1rctJA" elementId="org.eclipse.ui.views.PropertySheet" ref="_K03T4ORWEeazTIcL1rctJA"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_K0-osORWEeazTIcL1rctJA" elementId="org.eclipse.wst.server.ui.ServersView" ref="_K03T4eRWEeazTIcL1rctJA"/>
@@ -136,13 +136,11 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_K6rA8ORWEeazTIcL1rctJA" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_K6rA8eRWEeazTIcL1rctJA" elementId="org.eclipse.ui.navigator.ProjectExplorer"/>
+      <toolbar xmi:id="_K6rA8eRWEeazTIcL1rctJA" elementId="org.eclipse.ui.navigator.ProjectExplorer" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_Ky1TkORWEeazTIcL1rctJA" elementId="org.eclipse.ui.views.ResourceNavigator" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Navigator" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/filenav_nav.png" tooltip="" closeable="true">
       <tags>View</tags>
@@ -190,6 +188,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; showCategories=&quot;true&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:Data Management</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_cHeEIORWEeazTIcL1rctJA" elementId="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -256,7 +256,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Kg2LsORWEeazTIcL1rctJA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_KhKUwORWEeazTIcL1rctJA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_J7rpLORWEeazTIcL1rctJA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Jq3xgOa9Eeaw2-HJEvz48Q" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_J7rpLORWEeazTIcL1rctJA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Kg2LseRWEeazTIcL1rctJA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -283,7 +283,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Kg2yw-RWEeazTIcL1rctJA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_KhPNQORWEeazTIcL1rctJA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_J7pz8eRWEeazTIcL1rctJA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Jq94IOa9Eeaw2-HJEvz48Q" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_J7pz8eRWEeazTIcL1rctJA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Kg2yxORWEeazTIcL1rctJA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
