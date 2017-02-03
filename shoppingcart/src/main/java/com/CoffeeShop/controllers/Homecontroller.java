@@ -1,4 +1,6 @@
-package com.niit.controllers;
+package com.CoffeeShop.controllers;
+
+import org.springframework.web.bind.annotation.RequestMapping;
 
 public class Homecontroller {
 
@@ -14,4 +16,3 @@ public String aboutus(){
 	return "aboutus";
 }
 }
-

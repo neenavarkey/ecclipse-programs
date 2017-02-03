@@ -1,22 +1,29 @@
-package com.niit.model;
+package com.CoffeeShop.model;
 
 import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 @Entity
 @Table(name="product")
 //Table Name=product
 //primary key=id
 //name-varchar(255),description-varchar,price-number,quantity-number,mfg-date
 public class Product {
-	@id
+	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	@column(name="pid")
-	private int id;
-	@column(name="productname")
-	private String name;
-	private String description;
-	private double price;
-	private int quantity;
-	private Date mfg;
+
+	
+private int id;
+private String name;
+private String description;
+private double price;
+private int quantity;
+private Date mfg;
 //sample_product[pid,name,description,quantity,price,mfg]
 
 public int getId() {
@@ -58,5 +65,3 @@ public int getId() {
 
 
 	}
-
-
